@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/estilo.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+
+    <style>
+        .whats {
+            position: fixed; bottom: 30px; right: 115px; z-index: 9999;
+        }
+
+        .insta {
+            position: fixed; bottom:30px; right: 60px; z-index: 9999;
+        }
+
+        .face {
+            position: fixed; bottom:30px; right: 5px; z-index: 9999;
+        }
+    </style>
+    <title>Contato</title>
+</head>
+<body>
+    <div id="cabecalho">
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">Padaria</a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="/empresa.html">Empresa</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="produtos.html">Produtos</a>
+                </li>
+    
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Contato</a>
+                </li>
+              
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+        <div class="image">
+          <img src="/img/fotor-20240424165259.png" width="200px" height="200px">
+        </div>
+
+        <div class="conteudo">
+            <h1>Endereço</h1>
+        </div>
+
+        <div id="endereco">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14632.964652482613!2d-46.4180579!3d-23.523827!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce646cf0145ca9%3A0x22ecbd15340ea666!2sPadaria%20e%20Pizzaria%20Estrela%20do%20Lageado!5e0!3m2!1spt-BR!2sbr!4v1714339717039!5m2!1spt-BR!2sbr" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="contato">
+            <h1>Entre em contato</h1>
+        </div>
+
+        <section>
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <label>Nome</label>
+                <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+                <label>Email</label>
+                <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
+                <label>Mensagem</label>
+                <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+    
+                <input type="hidden" name="accessKey" value="042be0d3-84fa-4ae8-aaed-2434cda72cac">
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/obrigado.html">
+            </form>
+        </section>
+
+        <div id="horario">
+          <h3> horario de funcionamento</h3>
+
+          <div class="dias">
+          <img src="/img/relogio.png" width="50px" height="50px">
+          <h2>Segunda-Sabado</h2>
+          <p>DAS 6HR ÀS 22HR</p>
+        </div>
+
+        <div class="dias">
+          <img src="/img/relogio.png" width="50px" height="50px">
+          <h2>Domingo</h2>
+          <p>DAS 6HR ÀS 14HR</p>
+        </div>
+        </div>
+
+
+      
+
+
+
+
+<div class="whats">
+    <a href="https://wa.me/5511998918308" target="_blank">
+    <img src="/img/whatsapp.png" width="50" alt="Fale conosco pelo whatsApp" title="Fale conosco pelo whatsApp" />
+</a>
+</div>
+
+<div class="insta">
+    <img src="/img/instagram.png" width="50" />
+</div>
+
+<div class="face">
+    <img src="/img/facebook.png" width="55" />
+</div>
+
+
+
+<script src="/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
